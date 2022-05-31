@@ -13,7 +13,7 @@ export default function About() {
         }
     );
     const toggleFunc = () => {
-        if (myStyle.color == 'black') {
+        if (myStyle.color === 'black') {
             setStyle({
                 color: 'white',
                 backgroundColor: 'black'
